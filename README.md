@@ -37,6 +37,9 @@ NMS閾値<br>
 GPU推論<br>
 デフォルト：指定なし
 
+# ToDo
+* [ ] マルチクラスNMSの実装の見直し
+
 # Reference
 * [turingmotors/openlenda](https://github.com/turingmotors/openlenda)
 
