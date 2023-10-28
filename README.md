@@ -48,4 +48,4 @@ GPU推論<br>
 openlenda-onnx-inference-sample is under [Apache2.0 License](LICENSE).
 
 # License(Image)
-サンプル動画は[ぱくたそ](https://www.pakutaso.com/)様の[信号と車のライトがカラフルに反射する雨の道路](https://www.pakutaso.com/20230304087post-46153.html)を使用しています。
+サンプル画像は[ぱくたそ](https://www.pakutaso.com/)様の[信号と車のライトがカラフルに反射する雨の道路](https://www.pakutaso.com/20230304087post-46153.html)を使用しています。
