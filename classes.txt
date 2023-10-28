@@ -1,0 +1,8 @@
+red
+green
+yellow
+empty
+straight
+left
+right
+other
