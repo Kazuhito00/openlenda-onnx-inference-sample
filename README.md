@@ -1,8 +1,7 @@
 # openlenda-onnx-inference-sample
 [OpenLenda](https://github.com/turingmotors/openlenda)のPythonでのONNX推論サンプルです。<br>
 <br>
-![image](https://github.com/Kazuhito00/openlenda-onnx-inference-sample/assets/37477845/6ec75ecf-ad4f-433b-96a1-8e7ad4a42a91)
-
+![image](https://github.com/Kazuhito00/openlenda-onnx-inference-sample/assets/37477845/3965521a-5c9c-4f7b-8a92-3b17ebafb025)
 
 # Requirement 
 * OpenCV 4.8.1.78 or later
