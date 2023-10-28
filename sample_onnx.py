@@ -15,13 +15,11 @@ def get_args():
     parser.add_argument("--device", type=int, default=0)
     parser.add_argument("--movie", type=str, default=None)
     parser.add_argument("--image", type=str, default=None)
-    parser.add_argument("--width", help='cap width', type=int, default=960)
-    parser.add_argument("--height", help='cap height', type=int, default=540)
 
     parser.add_argument(
         "--model",
         type=str,
-        default='model/openlenda_nano.onnx',
+        default='model/openlenda_s.onnx',
     )
     parser.add_argument(
         '--score_th',
@@ -53,8 +51,6 @@ def main():
     # 引数解析
     args = get_args()
     cap_device = args.device
-    cap_width = args.width
-    cap_height = args.height
 
     if args.movie is not None:
         cap_device = args.movie
@@ -71,8 +67,6 @@ def main():
     # カメラ準備
     if image_path is None:
         cap = cv2.VideoCapture(cap_device)
-        cap.set(cv2.CAP_PROP_FRAME_WIDTH, cap_width)
-        cap.set(cv2.CAP_PROP_FRAME_HEIGHT, cap_height)
 
     # モデルロード
     providers = ['CPUExecutionProvider']
